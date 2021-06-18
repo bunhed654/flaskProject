@@ -1,0 +1,9 @@
+version: "3.88888888"
+services:
+  python:
+    build:
+      context: .
+    container_name: python
+    image: flaskproject_python:latest
+    ports:
+    - 5000:5000
