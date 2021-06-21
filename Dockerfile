@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN mkdir -p /vat/www/project
+RUN mkdir -p /var/www/project
 WORKDIR /var/www/project
 
 COPY requirements.txt ./
